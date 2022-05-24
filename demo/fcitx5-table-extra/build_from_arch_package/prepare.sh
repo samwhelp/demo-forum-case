@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 
-sudo apt-get install dpkg-dev wget xz-utils
+sudo apt-get install dpkg-dev wget zstd 
