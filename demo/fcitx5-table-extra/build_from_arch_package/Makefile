@@ -25,6 +25,14 @@ help:
 	@echo
 	@echo '	$$ make use-fcitx5'
 	@echo
+	@echo '	$$ make deb-info'
+	@echo
+	@echo '	$$ make deb-list'
+	@echo
+	@echo '	$$ make remove'
+	@echo
+	@echo '	$$ make clean'
+	@echo
 .PHONY: help
 
 
@@ -73,3 +81,18 @@ use-fcitx5:
 clean:
 	./clean.sh
 .PHONY: clean
+
+
+deb-info:
+	./deb-info.sh
+.PHONY: deb-info
+
+
+deb-list:
+	./deb-list.sh
+.PHONY: deb-list
+
+
+remove:
+	./remove.sh
+.PHONY: remove
