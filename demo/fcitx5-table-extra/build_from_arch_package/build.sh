@@ -6,9 +6,9 @@ PKG_ROOT="fcitx5-table-extra"
 
 
 
-mkdir -p "var/deb/$PKG_ROOT"
+rm -rf "var/deb"
 
-rm -rf var/deb/$PKG_ROOT/*
+mkdir -p "var/deb/$PKG_ROOT"
 
 
 
@@ -30,9 +30,6 @@ Maintainer: developer <developer@home.work>
 EOF
 
 
-
-
-rm -f var/*.deb
 
 
 cd 'var/deb'
