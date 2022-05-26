@@ -1,0 +1,15 @@
+apt-cache search libime
+fcitx5-config-qt - configuration tool for Fcitx5 (Qt version)
+libime-bin - Generic Input Method Implementation (tools)
+libime-data - Generic Input Method Implementation library (data files)
+libime-data-language-model - Generic Input Method Implementation library (language model)
+libimecore-dev - Generic Input Method Implementation (core dev files)
+libimecore0 - Generic Input Method Implementation (core library)
+libimepinyin-dev - Generic Input Method Implementation (pinyin dev files)
+libimepinyin0 - Generic Input Method Implementation (pinyin library)
+libimetable-dev - Generic Input Method Implementation (table dev files)
+libimetable0 - Generic Input Method Implementation (table library)
+
+
+
+cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_INSTALL_LIBDIR=/usr/lib ..
