@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 
 
-sudo apt-get install dpkg-dev wget zstd devscripts debhelper
-
+sudo apt-get install git wget zstd build-essential dpkg-dev devscripts debhelper
