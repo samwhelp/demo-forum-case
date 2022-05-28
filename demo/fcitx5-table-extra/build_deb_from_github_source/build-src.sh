@@ -4,7 +4,7 @@
 SRC_ROOT="fcitx5-table-extra"
 
 
-mkdir "var/src/$SRC_ROOT/build"
+mkdir -p "var/src/$SRC_ROOT/build"
 
 
 cd "var/src/$SRC_ROOT/build"
