@@ -18,6 +18,18 @@ Recommends:
  fcitx5-table-cangjie5,
  fcitx5-table-boshiamy,
 Description: Additional table based input method for Fcitx 5
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This metapackage recommends all additional table based input methods provided
+ by fcitx5-table-extra project.
 
 
 Package: fcitx5-table-cangjie5
@@ -26,6 +38,17 @@ Depends:
  fcitx-table,
  ${misc:Depends},
 Description: Flexible Input Method Framework - Cangjie5 table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ 2/3 and Qt4 IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Cangjie5 table used by the Fcitx table engine.
 
 
 Package: fcitx5-table-boshiamy
@@ -34,3 +57,14 @@ Depends:
  fcitx-table,
  ${misc:Depends},
 Description: Flexible Input Method Framework - Boshiamy table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ 2/3 and Qt4 IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Boshiamy table used by the Fcitx table engine.
