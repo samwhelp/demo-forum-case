@@ -2,6 +2,12 @@
 # Demo Service Start
 
 
+## File List
+
+* [/usr/local/bin/demo-service-start.sh](demo-service-start.sh)
+* [/etc/systemd/system/demo-service-start.service](demo-service-start.service)
+
+
 ## install script
 
 run to install [/usr/local/bin/demo-service-start.sh](demo-service-start.sh)
