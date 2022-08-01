@@ -18,7 +18,7 @@ help:
 
 
 
-install: script-install
+install: script-install service-install
 .PHONY: install
 
 
@@ -29,15 +29,21 @@ script-install:
 
 service-install:
 	sudo install -Dm644 demo-service-start.service /etc/systemd/system/demo-service-start.service
-.PHONY: script-install
+.PHONY: service-install
 
 
 
 
-remove: script-remove
+remove: service-remove script-remove
 .PHONY: remove
 
 
 script-remove:
 	sudo rm -f /usr/local/bin/demo-service-start.sh
 .PHONY: script-remove
+
+
+service-remove:
+	sudo sudo systemctl disable demo-service-start
+	sudo rm -f /etc/systemd/system/demo-service-start.service
+.PHONY: service-remove
