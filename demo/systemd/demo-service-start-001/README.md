@@ -130,6 +130,13 @@ show
 ```
 
 
+## trace log
+
+``` sh
+tail -n 10 -f /var/log/syslog
+```
+
+
 ## enable
 
 run
