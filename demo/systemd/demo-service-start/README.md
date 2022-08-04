@@ -5,7 +5,7 @@
 ## File List
 
 * [/usr/local/bin/demo-service-start.sh](demo-service-start.sh)
-* [/etc/systemd/system/demo-service-start.service](demo-service-start.service)
+* [/usr/lib/systemd/system/demo-service-start.service](demo-service-start.service)
 
 
 ## install script
@@ -19,10 +19,10 @@ sudo install -Dm755 demo-service-start.sh /usr/local/bin/demo-service-start.sh
 
 ## instal service
 
-run to install [/etc/systemd/system/demo-service-start.service](demo-service-start.service)
+run to install [/usr/lib/systemd/system/demo-service-start.service](demo-service-start.service)
 
 ``` sh
-sudo install -Dm644 demo-service-start.service /etc/systemd/system/demo-service-start.service
+sudo install -Dm644 demo-service-start.service /usr/lib/systemd/system/demo-service-start.service
 ```
 
 
@@ -60,7 +60,7 @@ systemctl cat demo-service-start
 show
 
 ```
-# /etc/systemd/system/demo-service-start.service
+# /lib/systemd/system/demo-service-start.service
 [Unit]
 Description=Demo Service Start
 
@@ -85,7 +85,7 @@ show
 
 ```
 ○ demo-service-start.service - Demo Service Start
-     Loaded: loaded (/etc/systemd/system/demo-service-start.service; disabled; vendor preset: enabled)
+     Loaded: loaded (/lib/systemd/system/demo-service-start.service; disabled; vendor preset: enabled)
      Active: inactive (dead)
 ```
 
@@ -107,12 +107,12 @@ show
 
 ```
 ○ demo-service-start.service - Demo Service Start
-     Loaded: loaded (/etc/systemd/system/demo-service-start.service; disabled; vendor preset: enabled)
+     Loaded: loaded (/lib/systemd/system/demo-service-start.service; disabled; vendor preset: enabled)
      Active: inactive (dead)
 
-Aug 01 12:16:03 sam-anywhere systemd[1]: Started Demo Service Start.
-Aug 01 12:16:03 sam-anywhere demo-service-start.sh[11111]: This is demo sevice start message!
-Aug 01 12:16:03 sam-anywhere systemd[1]: demo-service-start.service: Deactivated successfully.
+Aug 04 11:59:23 sam-anywhere systemd[1]: Started Demo Service Start.
+Aug 04 11:59:23 sam-anywhere demo-service-start.sh[12228]: This is demo sevice start message!
+Aug 04 11:59:23 sam-anywhere systemd[1]: demo-service-start.service: Deactivated successfully.
 ```
 
 run
@@ -124,9 +124,9 @@ grep -i -n 'demo' /var/log/syslog
 show
 
 ```
-9816:Aug  1 12:16:03 sam-anywhere systemd[1]: Started Demo Service Start.
-9817:Aug  1 12:16:03 sam-anywhere demo-service-start.sh[11111]: This is demo sevice start message!
-9818:Aug  1 12:16:03 sam-anywhere systemd[1]: demo-service-start.service: Deactivated successfully.
+46210:Aug  4 11:59:23 sam-anywhere systemd[1]: Started Demo Service Start.
+46211:Aug  4 11:59:23 sam-anywhere demo-service-start.sh[12228]: This is demo sevice start message!
+46212:Aug  4 11:59:23 sam-anywhere systemd[1]: demo-service-start.service: Deactivated successfully.
 ```
 
 
@@ -141,7 +141,7 @@ sudo systemctl enable demo-service-start
 show
 
 ```
-Created symlink /etc/systemd/system/default.target.wants/demo-service-start.service → /etc/systemd/system/demo-service-start.service.
+Created symlink /etc/systemd/system/default.target.wants/demo-service-start.service → /lib/systemd/system/demo-service-start.service.
 ```
 
 run
@@ -165,7 +165,7 @@ file /etc/systemd/system/default.target.wants/demo-service-start.service
 show
 
 ```
-/etc/systemd/system/default.target.wants/demo-service-start.service: symbolic link to /etc/systemd/system/demo-service-start.service
+/etc/systemd/system/default.target.wants/demo-service-start.service: symbolic link to /lib/systemd/system/demo-service-start.service
 ```
 
 
