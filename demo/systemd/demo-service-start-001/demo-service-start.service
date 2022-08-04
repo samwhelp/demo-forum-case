@@ -1,0 +1,9 @@
+[Unit]
+Description=Demo Service Start
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/demo-service-start.sh
+
+[Install]
+WantedBy=default.target
