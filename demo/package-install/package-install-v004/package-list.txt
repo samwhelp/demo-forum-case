@@ -1,0 +1,7 @@
+vim
+neovim
+micro
+pcmanfm-qt
+sakura
+mpv
+viewnior

@@ -1,0 +1,36 @@
+
+##
+## Text Editor
+##
+
+vim
+neovim
+micro
+
+
+##
+## File Manager
+##
+
+pcmanfm-qt
+
+
+##
+## Terminal
+##
+
+sakura
+
+
+##
+## Video Player
+##
+
+mpv
+
+
+##
+## Image Viewer
+##
+
+viewnior
