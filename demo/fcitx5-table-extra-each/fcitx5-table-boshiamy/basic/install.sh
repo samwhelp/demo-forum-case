@@ -32,3 +32,6 @@ cd "$OLDPWD"
 
 
 sudo cp ./var/src/boshiamy/icons/hicolor/. -rf "/usr/share/icons/hicolor"
+
+
+sudo gtk-update-icon-cache --force --quiet /usr/share/icons/hicolor

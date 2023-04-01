@@ -21,3 +21,5 @@ for item in ${list}; do
 
 done
 
+
+sudo gtk-update-icon-cache --force --quiet /usr/share/icons/hicolor
