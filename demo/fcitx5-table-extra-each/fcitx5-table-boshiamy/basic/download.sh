@@ -10,10 +10,10 @@
 mkdir -p 'var/src/boshiamy'
 
 
-#wget -c 'https://raw.githubusercontent.com/fcitx/fcitx5-table-extra/master/tables/boshiamy.conf.in' -O 'var/src/boshiamy/boshiamy.conf'
+wget -c 'https://raw.githubusercontent.com/fcitx/fcitx5-table-extra/master/tables/boshiamy.conf.in' -O 'var/src/boshiamy/boshiamy.conf'
 
 
-#wget -c 'https://raw.githubusercontent.com/fcitx/fcitx5-table-extra/master/tables/boshiamy.txt' -O 'var/src/boshiamy/boshiamy.txt'
+wget -c 'https://raw.githubusercontent.com/fcitx/fcitx5-table-extra/master/tables/boshiamy.txt' -O 'var/src/boshiamy/boshiamy.txt'
 
 
 
