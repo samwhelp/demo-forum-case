@@ -4,6 +4,8 @@
 
 > 如何簡易安裝「fcitx5-table-boshiamy」 (嘸蝦米輸入法)
 
+> 有安裝「icon」
+
 
 ## 相關討論
 
