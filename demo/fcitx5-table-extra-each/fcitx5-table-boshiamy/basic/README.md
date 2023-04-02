@@ -1,11 +1,21 @@
 
 
-# fcitx5-boshiamy
+# fcitx5-table-boshiamy / basic
+
+> 如何簡易安裝「fcitx5-table-boshiamy」 (嘸蝦米輸入法)
 
 
-## Link
+## 相關討論
 
-* Ubuntu與嘸蝦米: 在fcitx下，(boshiamy)嘸蝦米的使用最為順暢、穩定!（新酷音、m17n、倉頡、輕鬆法亦適用）- [#40](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=364424#forumpost364424)
+
+### Ubuntu與嘸蝦米: 在fcitx下，(boshiamy)嘸蝦米的使用最為順暢、穩定!（新酷音、m17n、倉頡、輕鬆法亦適用）
+
+* 「[#42](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=364428#forumpost364428)」 - 如何簡易安裝「fcitx5-table-boshiamy」 (嘸蝦米輸入法)
+
+
+### Ubuntu 22.04 LTS (Jammy Jellyfish) Released
+
+* 「[#20](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=363750#forumpost363750)」- 如何編譯「fcitx5-table-extra」並且打包成多個「Debian Package」
 
 
 ## Step
