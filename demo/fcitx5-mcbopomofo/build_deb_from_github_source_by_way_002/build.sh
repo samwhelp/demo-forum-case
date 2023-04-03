@@ -5,7 +5,7 @@ THE_PRJ_NAME="fcitx5-mcbopomofo"
 
 THE_PKG_NAME="${THE_PRJ_NAME}"
 
-THE_PKG_VERSION="0.1.0"
+THE_PKG_VERSION="0.1.1"
 
 
 mkdir -p "var/src/${THE_PRJ_NAME}/build/pkg-root"
@@ -29,7 +29,10 @@ cp -rfv "asset/build/debian/." "var/deb/${THE_PKG_NAME}/debian"
 
 cd "var/deb/${THE_PKG_NAME}"
 
-debchange --create --package "${THE_PKG_NAME}" -v "${THE_PKG_VERSION}" --controlmaint --distribution "unstable" --urgency "low" "Init Release" --changelog debian/changelog
+#debchange --create --package "${THE_PKG_NAME}" --newversion "${THE_PKG_VERSION}" --controlmaint --distribution "unstable" --urgency "low" "Init Release" --changelog debian/changelog
+
+debchange --newversion "${THE_PKG_VERSION}" --controlmaint --distribution "unstable" --urgency "low" "Latest Release" --changelog debian/changelog
+
 
 debuild -i -us -uc
 
