@@ -4,11 +4,18 @@
 
 ## TODO
 
-* ISSUE
+> ISSUE
 
 ```
 E: fcitx5-mcbopomofo changes: bad-distribution-in-changes-file unstable
 ```
+
+* [debuild_ubuntu_debian_package](https://gist.github.com/GeoffWilliams/8caefa46476817b68229)
+
+```
+debuild -us -uc --lintian-opts --profile debian
+```
+
 
 
 ## Link
