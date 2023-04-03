@@ -8,4 +8,3 @@ sudo apt-get install \
 	fcitx5-frontend-gtk3 \
 	fcitx5-frontend-gtk4 \
 	fcitx5-frontend-qt5
-
