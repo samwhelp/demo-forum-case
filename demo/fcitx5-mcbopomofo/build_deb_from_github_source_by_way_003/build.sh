@@ -34,6 +34,19 @@ cd "var/deb/${THE_PKG_NAME}"
 debchange --newversion "${THE_PKG_VERSION}" --controlmaint --distribution "unstable" --urgency "low" "Latest Release" --changelog debian/changelog
 
 
-debuild -i -us -uc
+#debuild -i -us -uc
+
+
+##
+## > [debuild_ubuntu_debian_package](https://gist.github.com/GeoffWilliams/8caefa46476817b68229)
+##
+## ```
+## How to run debuild with lintian on ubuntu
+## fixes error:  bad-distribution-in-changes-file unstable
+## Finished running lintian.
+## ```
+##
+
+debuild -us -uc --lintian-opts --profile debian
 
 cd "${OLDPWD}"
