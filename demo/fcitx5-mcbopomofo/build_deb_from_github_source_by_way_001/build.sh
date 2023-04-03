@@ -27,7 +27,7 @@ cat > "var/deb/${THE_PRJ_NAME}/DEBIAN/control" << EOF
 Package: ${THE_PRJ_NAME}
 Version: 0.1.0
 Architecture: all
-Description: This is a personal package.
+Description: This is a personal package for fcitx5-mcbopomofo.
 Maintainer: developer <developer@home.work>
 
 EOF
