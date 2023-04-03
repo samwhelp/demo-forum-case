@@ -1,0 +1,16 @@
+Source: fcitx5-mcbopomofo
+Section: utils
+Priority: optional
+Maintainer: developer <developer@home.work>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 3.9.5
+Homepage: https://samwhelp.github.io/demo-forum-case/
+Vcs-Git: https://github.com/samwhelp/demo-forum-case.git
+Vcs-Browser: https://github.com/samwhelp/demo-forum-case
+
+Package: fcitx5-mcbopomofo
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}
+Description: Mcbopomofo input method support for fcitx5
+ This is a personal package.
