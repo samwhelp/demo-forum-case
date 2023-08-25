@@ -66,3 +66,15 @@ to run [clean.sh](clean.sh)
 ``` sh
 make clean
 ```
+
+
+## Alternative
+
+
+## Way-001
+
+``` sh
+wget -c https://raw.githubusercontent.com/samwhelp/demo-forum-case/main/demo/fcitx5-table-extra-each/fcitx5-table-boshiamy/simple-start/install.sh
+
+sh install.sh
+```
