@@ -68,13 +68,45 @@ make clean
 ```
 
 
-## Alternative
+## Alternative Install
 
 
-## Way-001
+### Way-001
+
+run
 
 ``` sh
 wget -c https://raw.githubusercontent.com/samwhelp/demo-forum-case/main/demo/fcitx5-table-extra-each/fcitx5-table-boshiamy/simple-start/install.sh
 
 sh install.sh
+```
+
+
+### Way-002
+
+run
+
+``` sh
+curl -fLo install.sh --create-dirs \
+	https://raw.githubusercontent.com/samwhelp/demo-forum-case/main/demo/fcitx5-table-extra-each/fcitx5-table-boshiamy/simple-start/install.sh
+
+sh install.sh
+```
+
+
+### Way-003
+
+run
+
+``` sh
+wget 'https://raw.githubusercontent.com/samwhelp/demo-forum-case/main/demo/fcitx5-table-extra-each/fcitx5-table-boshiamy/simple-start/install.sh' -q -O - | bash
+```
+
+
+### Way-004
+
+run
+
+``` sh
+curl -fsSL 'https://raw.githubusercontent.com/samwhelp/demo-forum-case/main/demo/fcitx5-table-extra-each/fcitx5-table-boshiamy/simple-start/install.sh' | bash
 ```
