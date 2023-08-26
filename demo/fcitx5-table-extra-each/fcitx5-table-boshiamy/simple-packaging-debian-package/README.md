@@ -1,8 +1,8 @@
 
 
-# fcitx5-table-boshiamy / simple-packaging
+# fcitx5-table-boshiamy / simple-packaging-debian-package
 
-> 如何簡易打包「fcitx5-table-boshiamy」 (嘸蝦米輸入法) (**另一種方式**)
+> 如何簡易打包「fcitx5-table-boshiamy」 (嘸蝦米輸入法) (**打包成 Debian Package**)
 
 
 ## Porotype
