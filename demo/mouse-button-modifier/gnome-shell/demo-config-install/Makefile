@@ -10,13 +10,23 @@ help:
 	@echo '	$$ make'
 	@echo '	$$ make help'
 	@echo
-	@echo '	$$ make config-install'
+	@echo '	$$ make win'
 	@echo
 .PHONY: help
 
 
 
 
-config-install:
-	@./config-install.sh
-.PHONY: config-install
+reset:
+	@./reset.sh
+.PHONY: reset
+
+
+win:
+	@./win.sh
+.PHONY: win
+
+
+alt:
+	@./alt.sh
+.PHONY: alt

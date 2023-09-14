@@ -15,10 +15,13 @@ mouse_button_modifier_config_install () {
 	echo "##"
 	echo
 
+	
 
 	mouse_button_modifier_config_install_by_command
 
-
+	echo
+	
+	overlay_key_config_install_by_command
 
 	echo
 
@@ -69,6 +72,33 @@ mouse_button_modifier_ctrl_set_for_gnome () {
 	return 0
 }
 
+
+overlay_key_config_install_by_command () {
+	overlay_key_disable
+	#overlay_key_reset_to_default
+}
+
+overlay_key_disable () {
+
+	echo
+	echo "gsettings set org.gnome.mutter overlay-key ''"
+	gsettings set org.gnome.mutter overlay-key "''"
+
+}
+
+overlay_key_reset_to_default () {
+
+	echo
+	echo "gsettings reset org.gnome.mutter overlay-key"
+	gsettings reset org.gnome.mutter overlay-key
+
+	return 0
+
+	echo
+	echo "gsettings set org.gnome.mutter overlay-key 'Super_L'"
+	gsettings set org.gnome.mutter overlay-key "'Super_L'"
+
+}
 
 
 ##
